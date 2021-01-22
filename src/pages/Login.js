@@ -3,7 +3,7 @@ import { Button, Form } from 'semantic-ui-react';
 import gql from 'graphql-tag';
 import { useMutation } from '@apollo/react-hooks';
 
-import { AuthContext, AuthProvider } from '../context/auth';
+import { AuthContext } from '../context/auth';
 import { useForm } from '../util/hooks';
 
 function Login(props) {

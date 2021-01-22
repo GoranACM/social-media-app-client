@@ -10,7 +10,7 @@ import {
 import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000',
+  uri: 'https://enigmatic-earth-89563.herokuapp.com/',
 });
 
 const authLink = setContext(() => {
